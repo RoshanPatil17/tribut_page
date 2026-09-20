@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff8d02;
+    color: rgb(9, 9, 9);
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    max-width: 100%;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: #666;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.timeline p {
+    padding: 8px;
+    border-left: 3px solid #333;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* Forts Section */
+
+.forts-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.forts-section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.forts-intro {
+    max-width: 700px;
+    margin: 15px auto 25px;
+}
+
+.forts-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.fort {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    flex: 1;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+.fort h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.fort p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* Mobile */
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    img {
+        width: 200px;
+    }
+     .fort {
+        width: 100%;
+        flex: none;
+    }
+}
